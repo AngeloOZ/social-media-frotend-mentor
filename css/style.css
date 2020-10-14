@@ -82,10 +82,10 @@ body.active .btn-mode{
     top: -90px;
     margin: auto;
     width: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
+    grid-gap: 20px;
+    justify-items: center;
 }
 .card-main{
     position: relative;
@@ -186,15 +186,16 @@ h2{
 .ctn-overview{
     width: 80%;
     margin: auto;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    grid-gap: 20px;
+    justify-items: center;
     margin-top: 25px;
 }
 .card-overview{
     font-weight: 700;
     background-color: #252a41;
-    width: 230px;
+    width: 200px;
     height: 125px;
     margin-bottom: 20px;
     border-radius: 5px;
