@@ -90,7 +90,7 @@ body.active .btn-mode{
 .card-main{
     position: relative;
     background-color: #252a41;
-    width: 260px;
+    width: 230px;
     height: 180px;
     border-radius: 5px;
     display: flex;
@@ -194,7 +194,7 @@ h2{
 .card-overview{
     font-weight: 700;
     background-color: #252a41;
-    width: 260px;
+    width: 230px;
     height: 125px;
     margin-bottom: 20px;
     border-radius: 5px;
