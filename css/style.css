@@ -83,14 +83,14 @@ body.active .btn-mode{
     margin: auto;
     width: 80%;
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
-    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill,minmax(220px, 1fr));
+    /* grid-gap: 20px; */
     justify-items: center;
 }
 .card-main{
     position: relative;
     background-color: #252a41;
-    width: 200px;
+    width: 220px;
     height: 180px;
     border-radius: 5px;
     display: flex;
@@ -187,7 +187,7 @@ h2{
     width: 80%;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    grid-template-columns: repeat(4, minmax(220px, 1fr));
     grid-gap: 20px;
     justify-items: center;
     margin-top: 25px;
@@ -195,7 +195,7 @@ h2{
 .card-overview{
     font-weight: 700;
     background-color: #252a41;
-    width: 200px;
+    width: 220px;
     height: 125px;
     margin-bottom: 20px;
     border-radius: 5px;
@@ -228,7 +228,6 @@ body.active .page span{
     display: flex;
     align-items: center;
     color: #1EB589;
-    /* color: hsl(228, 12%, 44%); */
 }
 .percent span{
     margin-left: 5px;
